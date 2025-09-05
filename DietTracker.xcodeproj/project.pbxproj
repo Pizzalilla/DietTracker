@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C7EBB78C2E670C5C0085FC56 /* DietTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EBB7892E670C5C0085FC56 /* DietTrackerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C73E37782E669E2B0034FF0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C73E376A2E669E2A0034FF0D /* DietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73E37772E669E2B0034FF0D /* DietTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73E37812E669E2B0034FF0D /* DietTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EBB7892E670C5C0085FC56 /* DietTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +48,26 @@
 		C73E37842E669E2B0034FF0D /* DietTrackerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DietTrackerUITests;
+			sourceTree = "<group>";
+		};
+		C7EBB7952E682A7E0085FC56 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C7EBB7962E682A800085FC56 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7EBB7982E682A9C0085FC56 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7EBB79A2E682AB10085FC56 /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +100,11 @@
 		C73E37612E669E2A0034FF0D = {
 			isa = PBXGroup;
 			children = (
+				C7EBB79A2E682AB10085FC56 /* Assets */,
+				C7EBB7892E670C5C0085FC56 /* DietTrackerApp.swift */,
+				C7EBB7962E682A800085FC56 /* Models */,
+				C7EBB7952E682A7E0085FC56 /* ViewModels */,
+				C7EBB7982E682A9C0085FC56 /* Views */,
 				C73E376C2E669E2A0034FF0D /* DietTracker */,
 				C73E377A2E669E2B0034FF0D /* DietTrackerTests */,
 				C73E37842E669E2B0034FF0D /* DietTrackerUITests */,
@@ -109,6 +139,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C73E376C2E669E2A0034FF0D /* DietTracker */,
+				C7EBB7952E682A7E0085FC56 /* ViewModels */,
+				C7EBB7962E682A800085FC56 /* Models */,
+				C7EBB7982E682A9C0085FC56 /* Views */,
+				C7EBB79A2E682AB10085FC56 /* Assets */,
 			);
 			name = DietTracker;
 			packageProductDependencies = (
@@ -236,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EBB78C2E670C5C0085FC56 /* DietTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
